@@ -1,0 +1,47 @@
+:root{
+    --dark: rgba(30, 30, 30, 0.900);
+    --darkT: #FFF;
+    --light: #FFF;
+    --lightT:rgba(30, 30, 30, 0.900);
+}
+
+body{
+    width: 90%;
+    margin: auto;
+}
+
+.darkmode{
+    background-color: var(--dark);
+    color: var(--darkT);
+    transition: all 0.5s ease-in-out;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+}
+
+#maincontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#images{
+    width: 550px;
+    height: 550px;
+    flex-grow: 1;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+#img-changer{
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
